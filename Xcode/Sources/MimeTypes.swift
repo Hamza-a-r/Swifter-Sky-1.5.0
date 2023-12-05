@@ -112,7 +112,9 @@ internal let mimeTypes = [
     "asx": "video/x-ms-asf",
     "asf": "video/x-ms-asf",
     "wmv": "video/x-ms-wmv",
-    "avi": "video/x-msvideo"
+    "avi": "video/x-msvideo",
+    "cmfa": "audio/mp4",
+    "cmfv": "video/mp4"
 ]
 
 internal func matchMimeType(extens: String?) -> String {
